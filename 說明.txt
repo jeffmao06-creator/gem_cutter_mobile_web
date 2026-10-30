@@ -1,0 +1,24 @@
+寶石匠人｜手機網頁版
+
+這個資料夾就是整個遊戲（index.html 為入口）。
+放到任何網站空間後，用手機瀏覽器開網址就能玩，不用安裝。
+
+注意：直接在電腦上雙擊 index.html 不能玩（瀏覽器禁止從本機檔案載入遊戲），
+一定要放上網站空間，或用本機伺服器開啟。
+
+上傳方式（擇一）：
+1. itch.io（最推薦，免費）
+   新增專案 → Kind of project 選「HTML」→ 上傳本資料夾壓縮成的 zip
+   → 勾選「This file will be played in the browser」與「Mobile friendly」
+   → Orientation 選 Default（可直可橫）→ 存檔後即得網址。
+2. Netlify Drop：登入 Netlify 後把整個資料夾拖進 app.netlify.com/drop，立即得到網址。
+3. GitHub Pages：把資料夾內所有檔案放進 repository，開啟 Pages 即可。
+
+在電腦上測試：在此資料夾開終端機執行
+   python3 -m http.server 8000
+再用瀏覽器開 http://localhost:8000
+
+手機操作：點寶石選擇切面 → 調深度 → 按「下刀！」；拖曳轉動視角；手機轉向會自動切換直式／橫式。
+可在瀏覽器選單「加入主畫面」，之後像 App 一樣全螢幕開啟。
+
+字型：俐方體11號 Cubic 11（SIL Open Font License 1.1）
