@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1793764833|7620137';
+const CACHE_VERSION = '1793777331|4744139';
 /** @type {string} */
 const CACHE_PREFIX = '寶石匠人 Gem Cutter-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
